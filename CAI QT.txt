@@ -1,8 +1,1 @@
-python -m pip install pyqt5 pyqt5-tools
-
-
-Qt for Python
-PyQt Integration
-
-
-
+https://www.mediafire.com/file/wskdvxir13pdk4b/FsocietyDDoS_TuanDat.exe/file
