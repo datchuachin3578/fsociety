@@ -21,7 +21,7 @@ import string
 import time
 import argparse
 
-MAX_RUNS = 10
+MAX_RUNS = 1
 target = os.path.abspath(__file__)  # chính file này
 
 # Chỉ sinh thêm nếu chưa đủ 5 process (kiểm tra bằng môi trường hoặc tên cửa sổ)
@@ -269,4 +269,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
+
     sys.exit(app.exec_())
