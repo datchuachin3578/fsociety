@@ -4,6 +4,14 @@ Admin: $2a$10$guOFaAZ.OsDY6UCjlyaR7u.aztuZBObcP.Qeygb9kJBu0fPdr8dce
 
 hashcat --force -m 3200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule
 
+hashcat --force -m 3200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/d3ad0ne.rule
+
+hashcat --force -m 3200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt \
+    -r /usr/share/hashcat/rules/best64.rule \
+    -r /usr/share/hashcat/rules/toggle-case.rule \
+    -r /usr/share/hashcat/rules/append-years.rule
+
+hashcat --force -m 3200 -a 0 hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/OneRuleToRuleThemAll.rule
 Exercise hashes:
 i.48bb6e862e54f2a795ffc4e541caed4d
 ii.1C8BFE8F801D79745C4631D09FFF36C82AA37FC4CCE4FC946683D7B336B63032
